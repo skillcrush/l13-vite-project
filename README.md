@@ -14,3 +14,33 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the Oxlint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- npm (comes with Node.js)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/skillcrush/l13-vite-project.git
+   cd l13-vite-project
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## Running the app
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Then open [http://localhost:5173](http://localhost:5173) in your browser (the exact URL is printed in your terminal). The page updates instantly when you edit the code.
